@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta name="theme-color" content="#2196f3">
+
+    <title>Framework7 Material</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    
+    
+     <link rel="stylesheet" href="css/framework7.material.css">
+
+    <link rel="stylesheet" href="css/framework7.material.colors.css">
+
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="css/material-icons.css">
+
+    <link rel="stylesheet" href="css/kitchen-sink.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+      <link rel="stylesheet" href="css/indexs.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/update_profile.css">
+	<link rel="stylesheet" href="css/video-js.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+
+	<script src="js/jquery.form.js"></script>
+<!--
+<script type="text/javascript" src="js/app/login.js"></script>
+-->
+    <link rel="icon" href="img/icon.png">
+
+  </head>
+
+  <body class="theme-black">
+
+    <div class="statusbar-overlay"></div>
+
+    <div class="panel-overlay"></div>
+
+    <div class="panel panel-left panel-cover">
+
+      <div class="view navbar-fixed">
+
+        <div class="pages">
+
+          <div data-page="panel-left" class="page">
+
+                
+            <div class="page-content">
+
+				<div id="sideindex">
+            	  <img src="img/logo.png" class="leftlogo">
+
+	              <div class="content-block-title"><center>Welcome to I Am Pro</center></div>
+
+                  <div class="list-block" >
+                    <ul>
+                      <li><a href="page/login.html" class="item-link close-panel">
+                          <div class="item-content">
+                            <div class="item-media"><div class="material-icons">vpn_key</div></div>
+                            <div class="item-inner">
+                              <div class="item-title">login</div>
+                            </div>
+                          </div></a></li>
+                      <li><a href="page/registration.html" class="item-link close-panel">
+                          <div class="item-content">
+                            <div class="item-media"><div class="material-icons">person<!--<sup>add</sup>--></div></div>
+                            <div class="item-inner">
+                              <div class="item-title">Register</div>
+                            </div>
+                          </div></a></li>
+                          
+                          <li><a href="page/search.html" class="item-link close-panel">
+                          <div class="item-content">
+                            <div class="item-media"><div class="material-icons">search</div></div>
+                            <div class="item-inner">
+                              <div class="item-title">Search</div>
+                            </div>
+                          </div></a></li>
+                          
+                          <!--<li><a href="page/gallery.html" class="item-link close-panel">
+                          <div class="item-content">
+                            <div class="item-media"><div class="material-icons">person<sup>add</sup></div></div>
+                            <div class="item-inner">
+                              <div class="item-title">Gallery</div>
+                            </div>
+                          </div></a></li>-->
+                      <li><a href="#" class="item-link close-panel">
+                          <div class="item-content">
+                            <div class="item-media"><div class="material-icons">share</div></div>
+                            <div class="item-inner">
+                              <div class="item-title">Share</div>
+                            </div>
+                          </div></a></li>
+                      <li><a href="#" class="item-link close-panel">
+                          <div class="item-content">
+                            <div class="item-media"><div class="material-icons">rate_review</div></div>
+                            <div class="item-inner">
+                              <div class="item-title">Rate or Review</div>
+                            </div>
+                          </div></a></li>
+                    </ul>
+                  </div>
+                </div>  
+
+				<div id="usersideindex">
+            	  <img src="img/logo.png" class="leftlogo">
+
+				  <!--<div  class="mycontent-block"><a href="#" class="button button-fill button-raised"><span id="invoices"></span> Invoices</a></div>
+                  <div  class="mycontent-block"><a href="#" class="button button-fill button-raised"><span id="products"></span> Products</a></div>-->
+
+	              <div class="list-block" id="usersideindex">
+                <ul>
+                 <li><a href="page/dashboard.html" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><div class="material-icons">message</div></div>
+                        <div class="item-inner">
+                          <div class="item-title">Dashboard</div>
+                        </div>
+                      </div></a></li> <li><a href="page/profile.html" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><div class="material-icons">view_module</div></div>
+                        <div class="item-inner">
+                          <div class="item-title">My Profile</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="page/update_profile.html" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><div class="material-icons">publish</div></div>
+                        <div class="item-inner">
+                          <div class="item-title">Update Profile</div>
+                        </div>
+                      </div></a></li><li><a href="page/change_password.html" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><div class="material-icons">lock<sup>replay</sup></div></div>
+                        <div class="item-inner">
+                          <div class="item-title">Change Password</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="page/icon.html" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><div class="material-icons">device_hub</div></div>
+                        <div class="item-inner">
+                          <div class="item-title">icon</div>
+                        </div>
+                      </div></a></li>
+                  
+                  
+                  <li><a href="#" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><div class="material-icons">event_note</div></div>
+                        <div class="item-inner">
+                          <div class="item-title">Invoice</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="#" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><div class="material-icons">payment</div></div>
+                        <div class="item-inner">
+                          <div class="item-title">My Transactions</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="#" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><div class="material-icons">credit_card<sup>add</sup></div></div>
+                        <div class="item-inner">
+                          <div class="item-title">Credit Transactions</div>
+                        </div>
+                      </div></a></li>
+                 <li><a href="#"  class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><div class="material-icons">exit_to_app</div></div>
+                        <div class="item-inner">
+                          <div class="item-title">Logout</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="#" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><div class="material-icons">share</div></div>
+                        <div class="item-inner">
+                          <div class="item-title">Share</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="#" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><div class="material-icons">rate_review</div></div>
+                        <div class="item-inner">
+                          <div class="item-title">Rate or Review</div>
+                        </div>
+                      </div></a></li>
+                      
+                </ul>
+              </div>
+                </div>
+                
+            
+               
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+     <!-- Right Panel with Cover effect -->
+        <div class="panel panel-right panel-cover">
+            <div class = "content-block-title">User List</div>
+            <div class="list-block" id="ulist">
+            </div>
+        </div>
+    
+
+    <div class="views">
+
+      <div class="view view-main">
+
+        <div class="pages navbar-fixed">
+
+          <div data-page="index" class="page">
+			 <a href="#" data-panel="right" class="open-panel floating-button " style="margin-bottom: 47px; ">
+                             <div class="material-icons">message</div>
+                            <span class="chat_count"  style="display:none"></span>
+                        </a>
+            <div class="navbar">
+
+              <div class="navbar-inner">
+
+                <div class="center"><img src="img/logo.png" style="max-height: 100%;    height: 34px;" />&nbsp; I Am Pro</div>
+
+                <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
+
+              </div>
+
+            </div>
+
+            <div class="page-content  myreg-block-bg 	">
+
+              <div class="block block-strong"  >
+
+        
+
+ 
+
+    </div>
+
+
+
+
+
+
+            </div>
+
+
+          </div>
+
+        </div><div class = "toolbar footer-link">
+                    <div class = "toolbar-inner center" style="text-align: center;">
+                       <!-- <a href = "search.html"><i class="ms ms-search ms-32"></i><span data-lang="SEARCH">a</span></a>
+                        <a href = "mytrip.html"><i class="ms ms-trip ms-32"></i><span data-lang="MYTRIP">b</span></a>-->
+                        <a href = "#" class="open-panel"><span class="icon ion-grid ion-5x"></span><br><span data-lang="PLANTRIP">Menu</span></a>
+
+                        <a href = "preferances.html"><span class="icon ion-search ion-5x"></span><br><span data-lang="PLANTRIP">Search</span></a>
+                        <a href = "inbox.html"><span class="icon ion-home ion-5x"></span><br>
+<span data-lang="INBOX">Home</span></a>
+                        <a href = "#" data-panel="right"  class="open-panel"><span class="icon ion-chatbubbles ion-5x"></span><br>
+<span data-lang="ACCOUNT">Chat</span></a>
+                    </div>
+                </div>
+
+      </div>
+
+    </div>
+    
+    <script type="text/javascript" src="cordova.js"></script>
+
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+
+	<script type="text/javascript" src="js/app.js"></script>
+    
+
+	<script type="text/javascript" src="js/mss.js"></script>
+
+	<script src="js/index.js"></script>
+  </body>
+
+</html>
+
+
+
+
+
