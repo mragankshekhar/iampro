@@ -1,0 +1,18 @@
+/* CSS Document */
+
+.update-profile{
+	background-image:url("../myimg/profile.png");
+	background-size: cover;
+	padding: 10px;
+	}
+	.my_cam.pull-right {
+    position: absolute;
+    margin: 114px 70px 82px 181px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    padding: 4px;
+    /* margin-left: 5px; */
+    /* background-color: red; */
+    color: #f71104;
+    font-weight: 600;
+}
