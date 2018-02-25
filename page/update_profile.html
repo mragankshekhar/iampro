@@ -1,0 +1,153 @@
+<div class="pages navbar-fixed">
+
+          <div data-page="update_profile" class="page">
+
+            <div class="navbar">
+
+              <div class="navbar-inner">
+
+				<div class="left"><a href="index.html" class="back link icon-only"><i class="icon icon-back"></i></a></div>
+                <div class="center">Update Profile</div>
+
+                <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
+
+              </div>
+
+            </div>
+
+            <div class="page-content update-profile">
+
+              <div class="block block-strong"  >
+
+       <div >
+       <div class="icon ion-ios-reverse-camera ion-8x my_cam pull-right" onclick="$('#avatar').click()"></div>
+        <div class="user_image"><img src="" class="pro-img" id="pro-img" />
+        </div><center style="margin-bottom: 10px;"><span class="user-name"></span></center>
+        </div>
+        
+ 			 
+            
+            <form name="profile_image_form" method="post" id="profile_image_form" action="http://www.iampro.co/ajax/signup.php" enctype="multipart/form-data" class="form_ajax">
+            <input type="hidden" name="type" value="profile_pic">
+            <input type="hidden" name="process_type" value="android">
+            <input type="hidden" name="page_url" value="page/update_profile.html">
+            <input type="hidden" name="user_id" value="" id="user_id">
+           
+            <input type="file" name="avatar" id="avatar" onchange="$('#profile_image_form').submit()" style="display:none">
+            
+            </form>
+            <form autocomplete="off" method="post" class="form_ajax" action="api/login.php">
+                       <div class = "list-block">
+                        
+                           
+                           <div class="form-group">
+                             <div class="list-block">
+                               <ul>
+                               <li class="user_category">
+                              
+                           </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        
+                         
+                      
+                     </div>
+                  </form>
+                  
+                  
+                   <form name="profile_image_form" method="post" id="update_profile_form" action="post" enctype="multipart/form-data" class="form_ajax" style="padding: 23px; padding-top: 0px;margin-bottom: 20%;">
+            <input type="hidden" name="type" value="update_profile">
+            <input type="hidden" name="process_type" value="android">
+            <input type="hidden" name="page_url" value="page/update_profile.html">
+            <input type="hidden" name="user_id"  class="user_id" value="" id="user_id">
+           
+                   
+                  <div class="form-group">
+                            <input type="text" name="username" id="username" class="username" required="required"  value=""/>
+                            <label class="control-label" for="input">User Name</label><i class="bar"></i>
+                           </div>
+                           
+                         <div class="form-group">
+                            <input type="text" name="fname" id="fname" class="user_fname" required="required" value=""/>
+                            <label class="control-label" for="input">First Name</label><i class="bar"></i>
+                           
+                           </div>
+                           <div class="form-group">
+                            <input type="text" name="lname" id="lname" class="user_lname" required="required" value=""/>
+                            <label class="control-label" for="input">Last Name</label><i class="bar"></i>
+                           
+                           </div>
+                            <div class="form-group">
+                            <input type="number" name="mobile" id="mobile" class="user_mobile" required="required" value=""/>
+                            <label class="control-label" for="input">Mobile</label><i class="bar"></i>
+                           
+                           </div>
+                           <div class="form-group">
+                            <input type="email" name="email" id="email" class="user_email" required="required" value=""/>
+                            <label class="control-label" for="input">Email</label><i class="bar"></i>
+                           
+                           </div>
+                           <div class="form-group">
+                            <input type="date" name="dob" id="dob" class="user_dob" required="required" value=""/>
+                            <label class="control-label" for="input">Date Of Birth</label><i class="bar"></i>
+                           
+                           </div>
+                            <div class="form-group  identity_type" id="user_identity_type">
+                             </div>
+                  <div class="form-group">
+                            <input type="type" name="identity_number" id="identity_number" class="user_identity_number" required="required" value=""/>
+                            <label class="control-label" for="input">Identity Number</label><i class="bar"></i>
+                           
+                           </div>
+                            <div class="form-group">
+                            <input type="type" name="about_me" id="about_us" class="user_about_me" required="required" value=""/>
+                            <label class="control-label" for="input">About Me</label><i class="bar"></i>
+                           
+                           </div>
+                           <div class="form-group you_are" id="user_you_are">
+                           </div>
+                            <div class="form-group">
+                            <input type="type" name="tag_line" id="tag_line" class="user_tag_line" required="required" value=""/>
+                            <label class="control-label" for="input">Tag Line</label><i class="bar"></i>
+                           
+                           </div>
+                           <div class="form-group">
+                           
+                            <textarea name="address" id="address" class="user_address"></textarea>
+                            <label class="control-label" for="input">Address</label><i class="bar"></i>
+                           
+                           </div><div class="form-group">
+                            <input type="type" name="city" id="city" class="user_city" required="required" value=""/>
+                            <label class="control-label" for="input">City</label><i class="bar"></i>
+                           
+                           </div> 
+                           <div class="form-group">
+                            <input type="type" name="state" id="state" class="user_state" required="required" value=""/>
+                            <label class="control-label" for="input">State</label><i class="bar"></i>
+                           
+                           </div> 
+                           <div class="form-group">
+                            <input type="type" name="country" id="country" class="user_country" required="required" value=""/>
+                            <label class="control-label" for="input">Country</label><i class="bar"></i>
+                           
+                           </div>
+                 <center> <div class="col-100" style="    position: fixed;
+    bottom: 47px;width: 100%;left: 0; background-color: #ccc;">
+    <a href="#" onclick="update_profile_form()" class="button button-big button-green">Submit</a>
+  </div></center>
+  </form>
+             
+ 
+
+    </div>
+
+
+
+	 
+
+            </div>
+
+          </div>
+
+        </div>

@@ -1,0 +1,117 @@
+<div class="pages navbar-fixed">
+
+          <div data-page="profile" class="page">
+
+ <a href="#" data-panel="right" class="open-panel floating-button " style="margin-bottom: 47px; ">
+                             <div class="material-icons">message</div>
+                            <span class="chat_count"  style="display:none"></span>
+                        </a>
+
+            <div class="navbar">
+
+              <div class="navbar-inner">
+
+				<div class="left"><a href="index.html" class="back link icon-only"><i class="icon icon-back"></i></a></div>
+                <div class="center">Profile</div>
+
+                
+              </div>
+
+            </div>
+      <div class="page-content my-profile">
+
+              <div class="block block-strong "  >
+
+        <div id="banner_image" >
+        <div><center><span class="user_image" ><img src="img/logo.png" class="pro-img" ></span>
+        </center><center><span class="user-name"></span></center>
+        </div></div>
+
+ 
+ 
+  <div class="row no-gutter itemCount">
+        <div class="col-33"><i class="material-icons">images</i></br><span class="total_img">0</span> Image's</div>
+        <div class="col-33"><i class="material-icons">videocam_fill</i></br><span class="total_video">0</span> Video's</div>
+        <div class="col-33"><i class="material-icons">layers_fill</i></br><span class="total_product">0</span> Product's</div><br/>
+        <div class="col-33"><i class="material-icons">persons</i></br><span class="total_friend">0</span> Friend's</div>
+        <div class="col-33"><i class="material-icons">layers_fill</i></br><span class="total_provide">0</span> Provide's</div>
+        <div class="col-33"><i class="icon ion-beer ion-3x"></i></br><span class="total_demand">0</span> Demand's</div>
+      </div>
+       
+ 
+<div class="all_feed"></div>
+    
+ 
+
+    </div>
+
+
+
+	 
+
+            </div>
+
+          <div class = "popup first_page">
+ <div class = "content-block">
+     <p class="close-popup"> <i style="float: right;" class="material-icons">close</i></p>
+    
+		<div class = "content-block-title">WRITE A COMMENT </div>
+        
+        
+        
+        
+             <div class = "list-block">
+             
+             <div class="list-block media-list">
+  <ul style="height: 200px; overflow: scroll;" id="all_CMT">
+   
+    
+    
+  </ul>
+</div>
+             
+               <!--<div class="">
+          <div class="searchable-container" id="all_CMT" style=" padding: 17px;
+  height: 200px;overflow: auto;">
+           
+          </div>
+        </div>-->
+        
+        
+         <ul>
+                
+                <li>
+                
+                <form class="form_ajax"  enctype="multipart/form-data">
+        <input type="hidden" name="update_info_id" id="update_info_id" value="">
+        <input type="hidden" name="comments" id="comments" value="">
+        <input type="hidden" name="type" value="product_review" />
+        
+        <div class = "item-inner">
+                            <div class = "item-title label">Comment : </div>
+                            <div class = "item-input">
+                               <textarea class="form-control" id="comment" name="comment"></textarea>
+                            </div>
+                         </div>
+        
+        
+        <div class="modal-footer">
+          <!--<button type="submit" class="btn btn-danger" onClick="count_comment()">Send</button>
+          -->
+          <button type="reset" class="btn btn-default reset hide" id="reset_btn"  >reset</button>
+        </div>
+        </form>
+                
+                </li>
+                
+                
+                 
+                   </ul>
+                   
+                    <p class = "buttons-row">
+                   <a href = "#" class = "button button-fill button-raised" onclick="sendMsg();count_comment()">Send </a></p>
+                  </div></div>
+          
+</div></div>
+
+        </div>
